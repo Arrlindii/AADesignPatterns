@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1DC308212C06F0006BACA1 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC307212C06F0006BACA1 /* DateExtensions.swift */; };
+		DC1DC30B212C1497006BACA1 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC30A212C1497006BACA1 /* Validators.swift */; };
 		DC64B3E32129E04E0011BFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B3E22129E04E0011BFE9 /* AppDelegate.swift */; };
 		DC64B3E52129E04E0011BFE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B3E42129E04E0011BFE9 /* ViewController.swift */; };
 		DC64B3E82129E04E0011BFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC64B3E62129E04E0011BFE9 /* Main.storyboard */; };
 		DC64B3EA2129E0500011BFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC64B3E92129E0500011BFE9 /* Assets.xcassets */; };
 		DC64B3ED2129E0500011BFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC64B3EB2129E0500011BFE9 /* LaunchScreen.storyboard */; };
 		DC64B3F82129E0500011BFE9 /* AADesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B3F72129E0500011BFE9 /* AADesignPatternsTests.swift */; };
+		DC64B4032129EB3F0011BFE9 /* FormStateSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B4022129EB3F0011BFE9 /* FormStateSaver.swift */; };
+		DC64B4052129F6B50011BFE9 /* RevisionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B4042129F6B50011BFE9 /* RevisionsViewController.swift */; };
+		DC64B408212A05EE0011BFE9 /* FormVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B407212A05EE0011BFE9 /* FormVersionManager.swift */; };
+		DC64B40B212A064F0011BFE9 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B40A212A064F0011BFE9 /* Defaults.swift */; };
+		DC64B40D212A12840011BFE9 /* FormState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B40C212A12840011BFE9 /* FormState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC1DC307212C06F0006BACA1 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		DC1DC30A212C1497006BACA1 /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
 		DC64B3DF2129E04E0011BFE9 /* AADesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AADesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC64B3E22129E04E0011BFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC64B3E42129E04E0011BFE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,11 @@
 		DC64B3F32129E0500011BFE9 /* AADesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AADesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC64B3F72129E0500011BFE9 /* AADesignPatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADesignPatternsTests.swift; sourceTree = "<group>"; };
 		DC64B3F92129E0500011BFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC64B4022129EB3F0011BFE9 /* FormStateSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormStateSaver.swift; sourceTree = "<group>"; };
+		DC64B4042129F6B50011BFE9 /* RevisionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevisionsViewController.swift; sourceTree = "<group>"; };
+		DC64B407212A05EE0011BFE9 /* FormVersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVersionManager.swift; sourceTree = "<group>"; };
+		DC64B40A212A064F0011BFE9 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		DC64B40C212A12840011BFE9 /* FormState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC1DC306212C06E1006BACA1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DC307212C06F0006BACA1 /* DateExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC1DC309212C148E006BACA1 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DC30A212C1497006BACA1 /* Validators.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
 		DC64B3D62129E04E0011BFE9 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +107,13 @@
 		DC64B3E12129E04E0011BFE9 /* AADesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				DC1DC309212C148E006BACA1 /* Validators */,
+				DC1DC306212C06E1006BACA1 /* Extensions */,
+				DC64B409212A06430011BFE9 /* UserDefaultsFacade */,
+				DC64B406212A05DC0011BFE9 /* Memento */,
 				DC64B3E22129E04E0011BFE9 /* AppDelegate.swift */,
 				DC64B3E42129E04E0011BFE9 /* ViewController.swift */,
+				DC64B4042129F6B50011BFE9 /* RevisionsViewController.swift */,
 				DC64B3E62129E04E0011BFE9 /* Main.storyboard */,
 				DC64B3E92129E0500011BFE9 /* Assets.xcassets */,
 				DC64B3EB2129E0500011BFE9 /* LaunchScreen.storyboard */,
@@ -94,6 +129,24 @@
 				DC64B3F92129E0500011BFE9 /* Info.plist */,
 			);
 			path = AADesignPatternsTests;
+			sourceTree = "<group>";
+		};
+		DC64B406212A05DC0011BFE9 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				DC64B4022129EB3F0011BFE9 /* FormStateSaver.swift */,
+				DC64B40C212A12840011BFE9 /* FormState.swift */,
+				DC64B407212A05EE0011BFE9 /* FormVersionManager.swift */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		DC64B409212A06430011BFE9 /* UserDefaultsFacade */ = {
+			isa = PBXGroup;
+			children = (
+				DC64B40A212A064F0011BFE9 /* Defaults.swift */,
+			);
+			path = UserDefaultsFacade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC64B4032129EB3F0011BFE9 /* FormStateSaver.swift in Sources */,
+				DC64B4052129F6B50011BFE9 /* RevisionsViewController.swift in Sources */,
+				DC64B40D212A12840011BFE9 /* FormState.swift in Sources */,
 				DC64B3E52129E04E0011BFE9 /* ViewController.swift in Sources */,
+				DC64B40B212A064F0011BFE9 /* Defaults.swift in Sources */,
+				DC1DC308212C06F0006BACA1 /* DateExtensions.swift in Sources */,
+				DC64B408212A05EE0011BFE9 /* FormVersionManager.swift in Sources */,
 				DC64B3E32129E04E0011BFE9 /* AppDelegate.swift in Sources */,
+				DC1DC30B212C1497006BACA1 /* Validators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V3537E45N;
 				INFOPLIST_FILE = AADesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V3537E45N;
 				INFOPLIST_FILE = AADesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

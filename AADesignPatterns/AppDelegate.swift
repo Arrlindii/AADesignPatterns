@@ -3,7 +3,7 @@
 //  AADesignPatterns
 //
 //  Created by Arlind on 8/19/18.
-//  Copyright © 2018 Zag Apps. All rights reserved.
+//  Copyright © 2018 Arlind Aliu. All rights reserved.
 //
 
 import UIKit
